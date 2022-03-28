@@ -1,0 +1,11 @@
+version: 2
+updates:
+  # Enable version updates for npm
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "monthly"
+    ignore:
+      - dependency-name: "wrangler"
+      - dependency-name: "*"
+        update-types: ["version-update:semver-patch"]
