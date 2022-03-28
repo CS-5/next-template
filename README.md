@@ -1,2 +1,2 @@
-# next-ts-functions-tailwind-template
+# next-template
 A template repository for NextJS, TypeScript, Cloudflare Pages Functions, and TailwindCSS.
